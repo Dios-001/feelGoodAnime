@@ -1,0 +1,76 @@
+{
+    "Excited": [
+      "Action",
+      "Adventure",
+      "Sports",
+      "Sci-Fi"
+    ],
+    "Scared/Anxious": [
+      "Horror",
+      "Mystery",
+      "Suspense",
+      "Supernatural"
+    ],
+    "Happy/Joyful": [
+      "Comedy",
+      "Slice of Life",
+      "Gourmet",
+      "Adventure"
+    ],
+    "Sad": [
+      "Drama",
+      "Romance",
+      "Boys Love",
+      "Girls Love"
+    ],
+    "Nostalgic": [
+      "Slice of Life",
+      "Romance",
+      "Fantasy",
+      "Award Winning"
+    ],
+    "Inspired": [
+      "Award Winning",
+      "Sports",
+      "Drama",
+      "Fantasy"
+    ],
+    "Angry": [
+      "Suspense",
+      "Drama",
+      "Mystery"
+    ],
+    "Romantic": [
+      "Romance",
+      "Boys Love",
+      "Girls Love",
+      "Ecchi"
+    ],
+    "Reflective": [
+      "Avant Garde",
+      "Drama",
+      "Award Winning",
+      "Mystery"
+    ],
+    "Amused": [
+      "Comedy",
+      "Ecchi",
+      "Adventure"
+    ],
+    "Confused": [
+      "Avant Garde",
+      "Mystery",
+      "Supernatural",
+      "Sci-Fi"
+    ],
+    "Relaxed": [
+      "Slice of Life",
+      "Gourmet",
+      "Fantasy"
+    ],
+    "Naughty": [
+      "Hentai",
+      "Erotica"
+    ]
+  }
+  

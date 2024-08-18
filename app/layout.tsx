@@ -1,8 +1,9 @@
 import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
-
-const inter = Inter({ subsets: ["latin"] });
+import { Jersey_10 } from "next/font/google";
+const jersey_10 = Jersey_10({weight:'400',subsets:['latin']});
+const inter = Inter({ subsets: ["cyrillic"] });
 
 export const metadata: Metadata = {
   title: "Discover the Perfect Anime for Your Mood | FeelGoodAnime",
@@ -16,7 +17,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={`${jersey_10.className} bg-[#9A3B3B] text-white` }>
+      
+        {children}
+        
+        </body>
     </html>
   );
 }

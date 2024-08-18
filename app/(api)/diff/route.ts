@@ -23,7 +23,7 @@ export async function GET(req:NextRequest){
             
         })
         console.log(arr)
-       return  NextResponse.json(Array.from(arr))
+       return  NextResponse.json(Array.from(arr))   
     }
     catch(e){
         console.log(e)
