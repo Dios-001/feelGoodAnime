@@ -1,6 +1,6 @@
 import { error } from "console";
 import { MongoClient } from "mongodb";
-let uri = process.env.MONGODB_URI;
+let uri = process.env.MONGODB_URI1;
 
 let client;
 let clientPromise:Promise<MongoClient>;

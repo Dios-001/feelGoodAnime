@@ -1,0 +1,57 @@
+{
+    "mood": [
+      {
+        "name": "Excited",
+        "emoji": "😄"
+      },
+      {
+        "name": "Scared/Anxious",
+        "emoji": "😨"
+      },
+      {
+        "name": "Happy/Joyful",
+        "emoji": "😊"
+      },
+      {
+        "name": "Sad",
+        "emoji": "😢"
+      },
+      {
+        "name": "Nostalgic",
+        "emoji": "🌅"
+      },
+      {
+        "name": "Inspired",
+        "emoji": "🌟"
+      },
+      {
+        "name": "Angry",
+        "emoji": "😠"
+      },
+      {
+        "name": "Romantic",
+        "emoji": "❤️"
+      },
+      {
+        "name": "Reflective",
+        "emoji": "🤔"
+      },
+      {
+        "name": "Amused",
+        "emoji": "😄"
+      },
+      {
+        "name": "Confused",
+        "emoji": "😕"
+      },
+      {
+        "name": "Relaxed",
+        "emoji": "😌"
+      },
+      {
+        "name": "Naughty",
+        "emoji": "😈"
+      }
+    ]
+  }
+  

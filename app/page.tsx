@@ -24,6 +24,7 @@ export default function HomePage(){
      <h1 className="text-4xl font-extrabold">FeelGoodAnime</h1>
     </div>
     </header>
+    
     <div className="flex items-center flex-col">
     <p className="text-7xl">Get <span className="text-[#FF8400]">Anime</span> recommendation based on your mood.</p>
     <p className="text-4xl ">How are your feeling?</p>
