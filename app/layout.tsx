@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import { Inter } from "next/font/google";
 import "./globals.css";
 import { Jersey_10 } from "next/font/google";
+import LinkforDonation from "@/components/LinkforDonation";
 const jersey_10 = Jersey_10({weight:'400',subsets:['latin']});
 const inter = Inter({ subsets: ["cyrillic"] });
 
@@ -17,9 +18,11 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+<link rel="icon" href="/favicon.ico" sizes="any" />
       <body className={`${jersey_10.className} bg-[#9A3B3B] text-white` }>
       
         {children}
+        <LinkforDonation/>
         
         </body>
     </html>

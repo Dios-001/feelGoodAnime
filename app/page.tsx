@@ -3,6 +3,7 @@ import logo from './public/Screenshot_2024-08-18_at_12.51.43_PM-removebg-preview
 import Link from "next/link"
 import datas from '@/lib/mood.json'
 import { Button } from "@/components/ui/button"
+import LinkforDonation from "@/components/LinkforDonation"
 
 
 export default function HomePage(){
@@ -24,7 +25,7 @@ export default function HomePage(){
      <h1 className="text-4xl font-extrabold">FeelGoodAnime</h1>
     </div>
     </header>
-    
+
     <div className="flex items-center flex-col">
     <p className="text-7xl">Get <span className="text-[#FF8400]">Anime</span> recommendation based on your mood.</p>
     <p className="text-4xl ">How are your feeling?</p>
@@ -33,8 +34,8 @@ export default function HomePage(){
       {
         (datas.mood as any).map((data:any)=>{
           return(
-            <Button className="hover:bg-[#9A031E] " key={data.name} variant={"outline1"} size={'lg'} asChild>
-            <Link href="/diff" className="text-2xl ">{data.name} <span className="mt-1">{data.emoji}</span></Link>
+            <Button className=" text-xl hover:bg-[#9A031E] " key={data.name} variant={"outline1"} size={'lg'} asChild>
+            <Link href={`/${data.name}`} >{data.name} <span className="mt-1">{data.emoji}</span></Link>
            </Button>
           )
         })
@@ -42,6 +43,7 @@ export default function HomePage(){
    
 
     </div>
+
 </>
   )
 }
