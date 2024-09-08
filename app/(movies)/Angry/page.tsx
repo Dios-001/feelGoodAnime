@@ -31,7 +31,7 @@ async function getRandomActionOrComedyAnime() {
 
 export default async function RandomAnime() {
   const anime = await getRandomActionOrComedyAnime();
-  const trailer = await fetch(`https://www.googleapis.com/youtube/v3/search?key=AIzaSyC_QsAsLteq5mqhpq_rLRhDHRimMZ2dhec&part=snippet&maxResults=1&q=${anime?.Name} trailer`)
+  const trailer = await fetch(`https://www.googleapis.com/youtube/v3/search?key=${process.env.YOUTUBE_API}&part=snippet&maxResults=1&q=${anime?.Name} trailer`)
   const resp = await trailer.json()
   let what;
   try{  
